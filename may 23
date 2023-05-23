@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+int age,n;
+printf("enter the age of person");
+scanf("%d",&age);
+ if(age<=7)
+     printf("there are baby age");
+  else if(age<=15)
+     printf("there are school age");
+ else 
+        printf("there are adult age");
+return 0;
+}
